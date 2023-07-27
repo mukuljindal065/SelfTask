@@ -1,0 +1,4 @@
+Bundle-Name: practiceForm-web
+Bundle-SymbolicName: practiceForm.web
+Bundle-Version: 1.0.0
+Export-Package: practiceForm.web.constants

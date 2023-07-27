@@ -1,0 +1,14 @@
+dependencies {
+	compile project(":modules:practiceForm:practiceForm-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	 // https://mvnrepository.com/artifact/javax.mail/mail
+implementation group: 'javax.mail', name: 'mail', version: '1.4.7'
+	 
+}
+
+buildService {
+	apiDir = "../practiceForm-api/src/main/java"
+}
+
+group = "com.liferay.parcticeform"

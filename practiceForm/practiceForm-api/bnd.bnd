@@ -1,0 +1,10 @@
+Bundle-Name: practiceForm-api
+Bundle-SymbolicName: com.liferay.parcticeform.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.parcticeform.exception,\
+	com.liferay.parcticeform.model,\
+	com.liferay.parcticeform.service,\
+	com.liferay.parcticeform.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../practiceForm-service/service.xml
